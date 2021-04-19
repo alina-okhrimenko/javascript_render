@@ -1,0 +1,13 @@
+Task:
+1. Using .slice () method, from the initial sports array copy the arrays related to summer sports to the new array summer_sports.
+2. From the sports array, using .slice () method, copy the winter sports arrays to the new winter_sports array.
+3.From the arrays summer_sports and winter_sports, cut into the new array fruits those arrays that belong to fruits.
+4. Output all the elements of the final arrays summer_sports, winter_sports, fruits to the console in the form shown in the console.png.
+
+
+Задача:
+
+1. С массива sports с помощью метода .slice() скопировать в новый массив summer_sports массивы, которые относятся к летним видам спорта.
+2. С массива sports с помощью метода .slice() скопировать в новый массив winter_sports массивы, которые относятся к зимним видам спорта.
+3. С полученных массивов summer_sports и winter_sports вырезать в новый массив fruits те массивы, которые относятся к фруктам.
+4. Вывести все элементы полученных массивов summer_sports, winter_sports, fruits в консоль в виде, который изображен на рисунке console.png.
