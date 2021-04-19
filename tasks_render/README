@@ -1,0 +1,52 @@
+Given:
+
+let amount = 100;
+let monday = [
+   ['Write a tutorial', 180],
+   ['Some web development', 120]
+];
+let tuesday = [
+   ['Keep writing that tutorial', 240],
+   ['Some more web development', 180],
+    ['A whole lot of nothing', 240]
+];
+let tasks = [monday, tuesday];
+
+For the tasks array, you need to apply the following chain of methods:
+
+Convert time spent on tasks in hours instead of minutes.
+Filter tasks that took two hours or more to complete.
+Multiply the result by the hour rate.
+Output the result tothe html table:
+<tr>
+   <td> Task name: Write a tutorial </td>
+   <td> Taks duration: 3 hours </td>
+   <td> Task amount: $ 300 </td>
+</tr>
+
+*******************
+
+Дано:
+
+let amount = 100;
+let monday = [
+  ['Write a tutorial',180],
+  ['Some web development',120]
+];
+let tuesday = [
+  ['Keep writing that tutorial',240],
+  ['Some more web development',180],
+   ['A whole lot of nothing',240]
+];
+let tasks = [monday,tuesday];
+Для массива tasks необходимо выполнить следующую цепочку методов:
+
+Сконвертировать время потраченное на выполнение задач в часы, вместо минут.
+Отфильтровать задачи, на выполнение, которых ушло два часа или больше.
+Умножить результат на часовую ставку.
+Вывести в html таблицу, которая состоит из ячеек с отфильтрованными задачами в виде:
+<tr>
+  <td>Task name: Write a tutorial</td>
+  <td>Taks duration: 3 hours</td>
+  <td>Task amount: $300</td>
+</tr>
