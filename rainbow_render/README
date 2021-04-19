@@ -1,0 +1,29 @@
+Given:
+hero = ['Ivan'];
+native = ['York', 'Of'];
+destination = ['Poltava', 'In'];
+
+Using loops, if / else, switch / case and methods .push (), .pop (), .unshift (), .shift (), .concat (), .splice (), .reverse () .join () :
+
+1. Combine the destination, native, hero arrays into one "rainbow " array.
+2. Reverse the elements of the rainbow array.
+3. Change / add elements of the rainbow array so that it results in ['Richard', 'Of', 'York', 'Gave', 'Battle', 'In', 'Vain'];
+4. Document.draw the elements of the resulting array in html as shown in example.png.
+
+You do not need to use all methods listed! Use only those that will help you to reach the final goal.
+
+
+Дано:
+hero = ['Ivan'];
+native = ['York','Of'];
+destination = ['Poltava','In'];
+
+Используя циклы, if/else, switch/case и методы .push(), .pop(), .unshift(), .shift(), .concat(), .splice(), .reverse() .join():
+
+1. Объединить массивы destination, native, hero в общий массив rainbow.
+2. Сделать реверс элементов полученного массива rainbow.
+3. Изменить/добавить элементы массива rainbow так, что бы в итоге получился массив вида ['Richard','Of','York','Gave','Battle','In','Vain'];
+4. Вывести элементы полученного массива в html в виде, который представлен в прикрепленном рисунке example.png.
+
+Шрифт надписей на картинке Quicksand. Вы можете взять любой))
+Использовать все методы не обязательно! Берем только те, которые помогут вам привести массив к такому виду, что бы вывести его как на прикрепленной картинке rainbow.png.
