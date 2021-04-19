@@ -1,0 +1,32 @@
+Task: to build a residential complex in which:
+
+Three parking zones. The width of each car in the parking lot is 30px.
+Six park areas on the left and right sides of the complex (green areas). You can also do it around the entire perimeter of the complex.
+Three zones with residential buildings. Each residential area has 6 houses.
+An area with a football field.
+Pool area.
+Hockey rink area.
+All zones are connected by a road.
+
+All the necessary pictures are in the attached archive images.zip
+An example of the implementation of the task in the attached picture town.png
+
+We build all the content using js 😊
+Creativity is welcome 🤍
+
+
+Задача: построить жилой комплекс в котором:
+
+Три парковочные зоны. Ширина каждой машины на парковке 30px.
+Шесть парковых зон по левой и правой сторонам комплекса (зеленые области). Можно так же сделать по всему периметру комплекса.
+Три зоны с жилыми домами. В каждой жилой зоне по 6 домов.
+Зона с футбольным полем.
+Зона с бассейном.
+Зона с хоккейным полем.
+Все зоны соединены между собой дорогой.
+
+Все необходимые картинки находятся в прикрепленном архиве images.zip
+Пример реализации задачи в прикрепленном рисунке town.png
+
+Все содержимое строим с помощью js 😊
+Креатив приветствуется 🤍
