@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #figure1{
+            margin: 25px;
+        }
+        .square{
+            height: 70px;
+            width: 70px;
+            border: 2px solid black;
+        }
+
+        .circle {
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+            border: 2px solid black;
+        }
+
+        .rect{
+            height: 50px;
+            width: 100px;
+            border: 2px solid black;
+        }
+
+        .wrapper{
+            margin-bottom: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="figure1"><b>Hello! I am invisible!<br> Make me visible by picking my Shape and Color!</b></div>
+        
+        <label for="shape-select">Choose my shape:</label>
+            <select name="shapes" id="shape-select">
+                <option class="square" value="square" selected>Square</option>
+                <option class="rectangle" value="rectangle">Rectangle</option>
+                <option class="circle" value="circle">Circle</option>
+            </select><br>
+    </div>
+    <label for="input-color">Now pick my color: </label>
+    <input type="color" id="input-color" name="input-color"><br>
+    
+    
+    <script src="geomform.js"></script>
+</body>
+</html>
