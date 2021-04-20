@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputs-wrapper{
+            display: flex;
+            flex-direction: column;
+            margin: 25px;
+        }
+
+        input{
+            width: 300px;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hello{
+            margin-bottom: 25px;
+            width: 350px;
+        }
+
+        .story{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="inputs-wrapper">
+        <div class="hello">Hi! This is a small creative writing exercise! Gather your creativity and follow three simple steps below to create your perfect story^_^</div>
+
+        <label for="paragraph1" >Write a random sentence here: </label>
+        <input type="text" class="paragraph" placeholder="It was a dark and stormy night...">
+
+        <label for="paragraph2">Start second sentence with the last latter of your previous one: </label>
+        <input type="text" class="paragraph" placeholder="Three baby bears were sleeping.">
+
+        <label for="paragraph3">The third sentence should have only 4 words: </label>
+        <input type="text" class="paragraph" placeholder="Moon was shining bright">
+        
+        <label for="story">Voila! This is your story:</label>
+        <textarea id="story" name="story" class="story"></textarea>
+    </div>
+    <script src='inputs.js'></script>
+</body>
+</html>
