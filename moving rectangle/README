@@ -1,0 +1,16 @@
+Create a block in the middle of the screen. You can move the block using keyboard arrow-keys (the block moves in the corresponding direction).
+The block cannot go beyond the screen frame.
+
+1) the block does not "fall out" of the screen
+2) when block reaches the limits of the screen - it should jump by step * 2 pixels in the opposite direction.
+3) With each jump text "BAMS"  appears in the middle of the block and vanishes after 2 seconds
+
+**********
+
+
+Создать блок по середине экрана. При нажатии на стрелки - блок смещается в соответствующем направлении.
+Блок должен "упираться в экран", т.е. не может выйти за пределы экрана.
+
+1) блок не вываливается за экран
+2) при каждом "врезании" в стенку - блок отпрыгивает на step*2 пикселей в противоположном направлении.
+3) При каждом отпрыгивании - по середине блока появляется надпись "БЭМС", которая исчезает через 2 секунды
