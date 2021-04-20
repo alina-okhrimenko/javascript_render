@@ -1,0 +1,23 @@
+Create a SuperMath class with a check (obj) method, the obj parameter of which has properties X, Y, znak.
+
+Example of an object: obj = {X: 12, Y: 3, znak: “/”}, possible options of znak => + - / *%. 
+When entering znak, you need to check the correctness of the input for possible mathematical actions.
+
+The check method must confirm from the user whether he wants to perform the action znak with X and Y. 
+If - yes, do the mathematical action znak (which is described in the class), 
+otherwise - request the input of new data through the input () method from the SuperMath class.
+
+p = new SuperMath ();
+p.check (obj); // -> no p.input () -> 3 prompt -> counts
+
+************
+Создать класс SuperMath с методом check(obj), параметр obj которого имеет свойства X, Y, znak.
+
+Пример объекта: obj = { X:12, Y:3, znak: “/”}, возможные варианты znak=> + - / * %. 
+При вводе znak нужно сделать проверку корректности ввода на возможные математические действия.
+
+Метод check должен подтвердить у пользователя хочет ли он произвести действие znak c Х и У. 
+Если - да, сделать математическое действие znak(которое описано в классе), иначе - запросить ввод новых данных через метод input() с класса SuperMath.
+
+p = new SuperMath();
+p.check(obj); // --> no p.input() -> 3 prompt -> считает
