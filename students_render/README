@@ -1,0 +1,31 @@
+The data.json file contains three arrays:
+
+users - an array of users.
+roles - an array of user roles.
+
+What you need to do: render a block for each user from the users array of the corresponding type.
+
+For each user in the block, we output:
+User picture - img property
+User name - name property
+User's age - the age property
+The user's role is the role property.
+
+If the user has the courses property, then we display a list of the courses passed.
+
+************
+Файл data.json содержит три массива:
+
+users – массив юзеров системы.
+roles – массив ролей юзера.
+gradation – массив с диапазоном оценок.
+
+Что нужно сделать: отрендерить для каждого юзера с массива users соответствующего вида блок.
+
+Для каждого юзера в блоке выводим:
+Картинку юзера – свойство img
+Имя юзера – свойство name
+Возраст юзера – свойство age
+Роль юзера – свойство role.
+
+Если у юзера свойство courses есть, то выводим перечень пройденных курсов.
