@@ -1,0 +1,45 @@
+
+The fast food restaurant offers several types of hamburgers:
+
+small ($ 5, 20 calories)
+large ($ 10, 40 calories)
+
+
+A hamburger can be with one of several types of toppings:
+
+cheese (+ $ 1, + 20 calories)
+salad (+ $ 2, + 5 calories)
+potatoes (+ $ 1.5, + 10 calories)
+
+
+You can also add some extras:
+
+ seasoning (+ $ 1.5, 0 calories)
+mayonnaise (+ $ 2, + 5 calories).
+
+Write a program that calculates the cost and calorie content of a hamburger.
+
+Hint: you need a Hamburger class, a global HAMBURGER object (with a list of all its ingredients and characteristics)
+and methods to select options and calculate the required values.
+
+********************
+
+Сеть фастфудов предлагает несколько видов гамбургеров:
+
+маленький (5$, 20 калорий)
+большой (10$, 40 калорий)
+
+Гамбургер может быть с одним из нескольких видов начинок:
+
+сыром (+ 1$, + 20 калорий)
+салатом (+ 2$, + 5 калорий)
+картофелем (+ 1,5$ , + 10 калорий)
+
+Можно добавить добавки:
+
+посыпать приправой (+ 1,5$, 0 калорий)
+полить майонезом (+ 2$, + 5 калорий).
+
+Напишите программу, рассчитывающую стоимость и калорийность гамбургера.
+
+Подсказка: нужен класс Гамбургер, глобальный объект HAMBURGER (с перечнем всех его ингредиентов и характеристик) и методы для выбора опций и расчета нужных величин.
