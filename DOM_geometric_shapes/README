@@ -1,0 +1,12 @@
+There are some elements on the page:
+
+div - a shape that can take some form
+select - allows to select the type of shape (square, rectangle, circle). When you choose a value, the shape changes
+input - to select a color. When you change it, the color of the shape changes.
+
+***********
+на странице находятся элементы:
+
+div - фигура, которая может принимать какие-то формы
+select - выбрать тип фигуры (квадрат, прямоугольник, круг). При изменении значения в нем, меняется фигура
+input для выбора цвета. При его изменении меняется цвет фигуры
