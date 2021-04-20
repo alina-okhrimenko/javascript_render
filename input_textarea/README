@@ -1,0 +1,11 @@
+There are three <input type = "text"> tags.
+The task is to write a function that will display the contents of all input fields in the <textarea>, separated by commas.
+
+If changes have occurred in `input` after some time, they should apply to ` textarea` too.
+
+****************
+
+Есть три тега <input type="text">.
+Необходимо написать функцию, которая выведет в <textarea> содержимое всех input полей через запятую.
+
+Если в `input` через какое-то время произошли изменения – в `textarea` они должны появится тоже.
