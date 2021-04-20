@@ -1,0 +1,31 @@
+Create a calculator featuring slider (`input type =” range ”`) and the input field (`input type =” number ”`).
+Changing the state of `range` changes the state of the input field` number`. And vice versa.
+
+Create a block diagram that displays the range value in pixels.
+For example - the number 83 was chosen for range, the height of the block diagram will be 83 pixels.
+
+The red block is the amount of commission. The commission is calculated by the formula:
+
+    (range <20) -> 2%
+    (20 - 50) -> 4%
+    (50 - 75) -> 6%
+    (75 - 100) -> 8%
+
+The red block displays the amount of commission. For example the selection value is 100, the commission will be 8%. Resulting amount: 108. Red block height - 8px
+
+**************
+
+Реализовать калькулятор, в котором есть слайдер (`input type=”range”`) и поле ввода (`input type=”number”`).
+Изменяя состояние `range` меняется состояние поля ввода `number`. И наоборот.
+
+Реализовать блок-диаграмму, который в пикселях будет отображать значение range.
+Например - range выбрали число 83, высота блока-диаграммы будет 83 пикселя.
+
+Красный блок - количество комиссии. Комиссия вычисляется по формуле:
+
+    (range < 20) -> 2%
+    (20 - 50)  -> 4%
+    (50 - 75)  -> 6%
+    (75 - 100)  -> 8%
+
+Красный блок отображает количество комиссии. Например Значение выбора 100, комиссия будет 8%. Результирующая сумма: 108. Высота красного блока - 8px 
