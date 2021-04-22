@@ -1,0 +1,19 @@
+1. Create a basic game-platformer character.
+When clicking on arrow keys -  the character moves by step pixels to the side (up, down, right, left) // event.keyCode
+Pressing the space bar makes character jump up by h pixels.
+2. The character is a square with dimensions of 100 by 100 pixels. 
+A jump is an animation of an object moving up by h pixels and returning to its initial position.
+3. When you press CTRL, the character "sits down" (decreases in size in height by 40%, in width - increases by 15%)
+4. Implement several context (event = contextmenu) menus.
+     1) Apply the first menu to the character. Create actions: Jump, MoveLeft, MoveRight, ChangeColor / Image
+     2) Apply the second menu to the rest of the document. Create actions: RemoveCharacter, ResetPosition
+     
+********
+
+1.	Создать персонажа игры-платформера. При нажатии на пробел - прыжок вверх на h пикселей.
+При нажатии на стрелки - передвижение персонажа на step пикселей в сторону (вверх, вниз, вправо, влево) // event.keyCode
+2.	Персонаж - это квадрат, имеющий размеры 100 на 100 пикселей. Прыжок - это анимация движения объекта вверх на h пикселей и возврат в изначальное положение (до прыжка)
+3.	При нажатии на CTRL персонаж должен "присесть" (уменьшиться в размерах по высоте на 40%, по ширине - увеличится на 15%)
+4. Реализовать несколько контекстных (event = contextmenu) меню.
+     1) Применить первое меню к персонажу. В нем создать actions: Jump, MoveLeft, MoveRight, ChangeColor/Image
+     2) Применить второе меню к остальному документу . Создать actions: RemoveCharacter, ResetPosition
