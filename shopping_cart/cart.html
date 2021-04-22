@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="cart.js"></script>
+</head>
+<body style="font-family: monospace;">
+    <div class="products"></div>
+    <hr>
+
+ <section class="container">
+    <h2 class="header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total" name="cartTotal">
+            <select name="currency" class ="currency" onchange="convert()">
+                <option class="usd" value="usd">USD</option>
+                <option class="eur" value="eur">EUR</option>
+                <option class="uah" value="uah" selected>UAH</option>
+            </select>
+            <strong class="cart_amoun">Total</strong>
+            <span id="total">0</span>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            <button class="btn btn-primary btn-clear" type="button">CLEAR ALL</button>
+        </div>
+    </section>
+</body>
+</html>
