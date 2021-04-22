@@ -1,0 +1,65 @@
+*{
+    background-color: green;
+}
+.body {
+    position: relative;
+}
+.goose {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    transform: rotateY(180deg);
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.img {
+    display: block;
+}
+.img2 {
+    display: none;
+}
+.right-click-menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    list-style: none;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    display: none;
+}
+.right-click-menu.active {
+    display: block;
+}
+.right-click-menu li {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 20px;
+}
+.right-click-menu li:hover {
+    background: lightgrey;
+}
+
+.main-click-menu {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    display: none;
+}
+.main-click-menu.active {
+    display: block;
+}
+.main-click-menu li {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 20px;
+}
+.main-click-menu li:hover {
+    background: lightgoldenrodyellow;
+}
